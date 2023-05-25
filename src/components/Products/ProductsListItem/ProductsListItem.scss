@@ -3,7 +3,6 @@
   margin-right: 24px;
   position: relative;
   width: calc((100% - 72px) / 4);
-
   &-hide-ifno {
     background-color: #000000a5;
     position: absolute;
@@ -38,5 +37,11 @@
 @media (max-width: 480px) {
   .product-item {
     margin-right: 0;
+    width: 100%;
+
+    & img {
+      height: auto;
+      width: auto;
+    }
   }
 }
