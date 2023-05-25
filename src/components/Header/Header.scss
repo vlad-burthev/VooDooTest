@@ -1,0 +1,13 @@
+.header {
+  &-content {
+    .header-title {
+      max-width: 200px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .mr-12 {
+    margin-right: 12px;
+  }
+}
