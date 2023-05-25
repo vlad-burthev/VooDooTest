@@ -14,7 +14,7 @@ const ProductsList = ({ windowSize }) => {
   console.log(products);
 
   return (
-    <div className="pt-12 flex flex-wrap justify-center">
+    <div className="pt-12 flex flex-wrap">
       {products.map((product) => (
         <ProductsListItem
           product={product}
